@@ -1,0 +1,47 @@
+body {
+    background-color:aqua;
+    border-style: dotted;
+    border: blueviolet;
+}
+
+img {
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    border-style: groove;
+    margin-left: 100px;
+}
+
+h1, h2 {
+    font-family: cursive;
+}
+
+a {
+    font-size: xx-large;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    padding-right: 100px;
+}
+
+ul, ol {
+    color: brown;
+}
+
+p {
+    text-align: center;
+}
+
+.grid-container {
+    margin: 20px auto;
+  width:400px;
+  height:400px;
+  background-color:#fff;
+  display:grid;
+  grid-template-columns: 200px 200px;
+  grid-row: auto auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+
